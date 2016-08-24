@@ -232,7 +232,7 @@ public class LoginActivity extends AppCompatActivity {
       @Override
       protected Boolean doInBackground(Void... params) {
          try {
-            String link = "http://localhost/login.php";
+            String link = "http://webco-op.netai.net/login.php";
 
                String data = URLEncoder.encode("email", "UTF-8") + "=" + URLEncoder.encode(mEmail, "UTF-8");
                data += "&" + URLEncoder.encode("password", "UTF-8") + "=" + URLEncoder.encode(mPassword, "UTF-8");
