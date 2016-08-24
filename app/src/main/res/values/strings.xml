@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">CoOp</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_password_short">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_must_contain">Password must contain at least 1 non-letter</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_main">Co-Op-a-GoGo</string>
+    <string name="title_activity_request">Request a Sit</string>
+    <string name="title_activity_accept">Accept a Request</string>
+    <string name="title_activity_calendar">Account Settings</string>
+    <string name="title_activity_roster">Roster</string>
+    <string name="title_activity_message_board">My Requests</string>
+    <string name="date">"Date: "</string>
+    <string name="requester_string">"Requester: "</string>
+    <string name="password_no_upper">Password must contain uppercase letter</string>
+    <string name="password_no_lower">Password must contain lower case letter</string>
+    <string name="password_no_num">Password must contain at least 1 number</string>
+    <string name="title_activity_account_creation">Create an Account</string>
+    <string name="first_name_string">"First Name: "</string>
+    <string name="last_name_string">"Last Name: "</string>
+    <string name="numKids_string">"Number of Kids: "</string>
+    <string name="email_string">"Email: "</string>
+    <string name="password_string">"Password: "</string>
+    <string name="check_password_string">"Retype Password: "</string>
+    <string name="create_account">Create Account</string>
+    <string name="address_string">"Address: "</string>
+    <string name="ip">10.0.1.185</string>
+    <string name="title_activity_user_drawer">UserDrawerActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="user_info_button">User Info</string>
+    <string name="request_button">Request</string>
+    <string name="accept_list_button">Accept</string>
+    <string name="my_requests_list_button">My Requests</string>
+    <string name="roster_button">roster</string>
+    <string name="dont_have_an_account_create_a_new_one">Dont have an account? Create a new one!</string>
+    <string name="complete_request">Complete Request</string>
+    <string name="accept_request">Accept Request</string>
+    <string name="hours">"Hours: "</string>
+    <string name="kids">"Kids: "</string>
+    <string name="requester">Requester:</string>
+    <string name="submit_request">Submit Request</string>
+    <string name="number">number</string>
+    <string name="forr">For</string>
+    <string name="hh_mm">hh:mm</string>
+    <string name="starting_time">Starting Time</string>
+    <string name="mm_dd_yyyy">mm/dd/yyyy</string>
+    <string name="enter_date_and_time">Enter Date and Time:</string>
+    <string name="enter_number_of_kids">Enter Number of Kids:</string>
+    <string name="hour">Hours</string>
+    <string name="get_directions">Get Directions</string>
+    <string name="send_message">Send Message</string>
+    <string name="update_user_info">Update user info</string>
+    <string name="points">Points:</string>
+    <string name="first_last">First Last</string>
+    <string name="_kids">kids</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="choose_image">Choose Image</string>
+    <string name="accept_a_sit">Accept a sit</string>
+    <string name="my_sits">My Sits</string>
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.coop.grady.coop.RosterActivity"
+    tools:showIn="@layout/activity_roster">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:id="@+id/roster_picture"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:id="@+id/roster_name"
+        android:layout_below="@id/roster_picture"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:text="@string/kids"
+        android:layout_below="@id/roster_name"
+        android:layout_marginTop="10dp"
+        android:id="@+id/roster_numKids_string"
+        android:textColor="@color/colorPrimaryDark"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/roster_numKids_string"
+        android:layout_toRightOf="@id/roster_numKids_string"
+        android:layout_toEndOf="@id/roster_numKids_string"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:id="@+id/roster_numKids"
+        android:textColor="@color/colorAccent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:text="@string/address_string"
+        android:layout_below="@id/roster_numKids_string"
+        android:layout_marginTop="10dp"
+        android:id="@+id/roster_address_string"
+        android:textColor="@color/colorPrimaryDark"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/roster_address_string"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_toRightOf="@id/roster_address_string"
+        android:layout_toEndOf="@id/roster_address_string"
+        android:id="@+id/roster_address"
+        android:textColor="@color/colorAccent"/>
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/get_directions"
+        android:background="@drawable/rounded_button"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@id/roster_address"
+        android:id="@+id/get_directions_button"/>
+
+
+</RelativeLayout>
